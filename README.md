@@ -1,4 +1,6 @@
-# AI_Poetry
-Artificial intellingence Poems
+# Phystech.Sudoku
+Program:
+– generates sudoku;
+– solves sudoku.
 
 Authors: Крамаренко Иван, Гребняк Ярослав

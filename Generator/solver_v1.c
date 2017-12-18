@@ -85,5 +85,6 @@ int main(void) {
     free_sudoku(sudoku);
     fclose(in);
     fclose(out);
+    return 0;
 }
 

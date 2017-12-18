@@ -83,5 +83,7 @@ int main(void) {
         printf("%d", can_be_solved(sudoku, 0));
     }
     free_sudoku(sudoku);
+    fclose(in);
+    fclose(out);
 }
 

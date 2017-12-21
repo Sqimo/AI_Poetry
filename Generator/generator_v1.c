@@ -14,7 +14,7 @@ int *init_sudoku(void) {
     return trial;}
 
 void print_sudoku(int *sudoku) {
-    int i, j, k;
+    int i, j;
     for (i = 0; i < 9; i++) {
         for (j = 0; j < 9; j++)
             fprintf(out, "%d", sudoku[i * 9 + j]);

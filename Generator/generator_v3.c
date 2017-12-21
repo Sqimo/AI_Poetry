@@ -14,7 +14,7 @@ int *init_sudoku(void) {
     return trial;}
 
 void print_sudoku(int *sudoku) {
-    int i, j, k;
+    int i, j;
     for (i = 0; i < 9; i++) {
         for (j = 0; j < 9; j++)
             fprintf(out, "%d", sudoku[i * 9 + j]);
@@ -82,7 +82,7 @@ int number_of_solutions(int *sudoku, int pos) {
     return n;}
 
 void init_grid(int *sudoku) {
-    int i, j, k;
+    int i, j;
     for (i = 0; i < 9; i++){
         for (j = 0; j < 9; j++) {
             if (i < 3)
@@ -246,7 +246,7 @@ void scan_sudoku(int *sudoku) {
 
 int main(void) {
     srand(time(NULL) * 1234567890);
-    int a = rand();
+    rand();
     out = fopen("sudoku.txt", "w");
     int *sudoku = init_sudoku();
     int i;

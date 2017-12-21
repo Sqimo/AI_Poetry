@@ -120,7 +120,7 @@ void update(int x, int y, int n, int grid[9][9][10]) {
 }
 
 
-guess(int grid[9][9][10]) {
+void guess(int grid[9][9][10]) {
     int i, j, k, l;
     int low = 10, nx = 0, ny = 0, s;
     int grid_copy[9][9][10];

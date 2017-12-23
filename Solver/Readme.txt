@@ -1,0 +1,3 @@
+-"sudoku_solver.c" solves sudoku. Sudoku sould be in "grids.txt". The output is in "grids_solved.txt".
+-"grids.txt" - the example of sudoku.
+-"grids_solved.txt" - solved sudoku.

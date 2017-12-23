@@ -249,10 +249,11 @@ int main(void) {
     rand();
     out = fopen("sudoku.txt", "w");
     int *sudoku = init_sudoku();
-    int i;
+    int i, N;
     int difficulty;
-    for (i = 1; i < 1001; i++) {
-        fprintf(out, "Grid %04d\n", i);
+    scanf("%d", &N);
+    for (i = 1; i < N + 1; i++) {
+        fprintf(out, "Grid %d\n", i);
         printf("%d\n", i);
         init_grid(sudoku);
         random_grid(sudoku);
